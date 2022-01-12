@@ -40,3 +40,13 @@ h3 {
   left: 25%;
   bottom: 35%;
 }
+
+.middle-container {
+  padding-top: 30px;
+}
+
+.profile-picture {
+  width: 15%;
+  height: auto;
+  border-radius: 100%;
+}
