@@ -1,23 +1,42 @@
 body {
-  background-color: #EAF6F6;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
 }
 
 h1 {
-  color: #66BFBF;
+  margin: 50px auto 0px auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
 }
 
 h3 {
-  color: #66BFBF;
+  font-family: "Montserrat", sans-serif;
 }
 
-hr {
-  border-style: none;
-  border-top-style: dotted;
-  border-color: gray;
-  border-width: 5px;
-  width: 5%;
+.top-container {
+  background-color: #e3fdfd;
+  position: relative;
+  padding-top: 100px;
 }
 
-.profile-picture {
-  height: 150px;
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 25%;
+  top: 5%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 25%;
+  bottom: 35%;
 }
